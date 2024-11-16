@@ -1,25 +1,17 @@
+# Date:26.09.2024
 ## Ex.No:7 Develop an android application to display the country name with image using list view in android studio.
 ## AIM:
 To create and develop the application to display the place name with image using list view in android studio
-
 ## EQUIPMENTS REQUIRED:
 Android Studio(Latest Version)
-
 ## ALGORITHM:
-## Step 1:Open Android Stdio and then click on File -> New -> New project.
-
+Step 1:Open Android Stdio and then click on File -> New -> New project.
 Step 2: Then type the Application name as “listview″ and click Next.
-
 Step 3: Then select the Minimum SDK as shown below and click Next.
-
 Step 4: Then select the Empty Activity and click Next. Finally click Finish.
-
 Step 5: Design layout in activity_main.xml.
-
 Step 6: Get contacts details and Display details give in MainActivity file.
-
 Step 7: Save and run the application.
-
 ## PROGRAM:
 ```
 Program to print the list of item.
@@ -83,7 +75,6 @@ STRINGS.XML
 MAINACTIVITY.JAVA
 ```
 package com.example.ex_7_listview;
-
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -92,9 +83,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import android.os.Bundle;
-
 public class MainActivity extends AppCompatActivity {
     ListView listView;
     TextView textView;
@@ -116,15 +105,11 @@ public class MainActivity extends AppCompatActivity {
                 // TODO Auto-generated method stub
                 String value=adapter.getItem(position);
                 Toast.makeText(getApplicationContext(),value,Toast.LENGTH_SHORT).show();
-
             }
         });
-
-    }
-}
+    }}
 ```
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/9afcfed3-ff38-4b11-b1eb-76f23afb43c2)
-
 ## RESULT
 Thus a Simple Android Application to create and develop the application to display the country name with image using list view in android studio is developed and executed successfully
